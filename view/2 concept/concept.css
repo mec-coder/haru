@@ -1,0 +1,11 @@
+/* #chef {
+  float: right;
+} */
+
+.message p span {
+  font-weight: bolder;
+}
+
+.message-wrapper .message {
+  text-align: left;
+}

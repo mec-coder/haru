@@ -1,0 +1,61 @@
+/* スライド関連ｓ */
+.image-wrapper {
+  background-color: ghostwhite;
+}
+.slider{
+  width: 90%;
+  margin: 0 auto;
+  
+}
+.slide img {
+  max-height: 70vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* スライド関連 ｇ*/
+
+/* ノティス関連 */
+.notice-wrapper {
+  background-color: ghostwhite;
+}
+.notices {
+  padding: 10% 0;
+}
+.notice {
+  padding: 5% 0;
+  display: flex;
+  align-items: center;
+}
+.photo-contents {
+  flex: auto;
+}
+.text-contents {
+  flex: auto;
+}
+.dates {
+  font-weight: lighter;
+  font-size: medium;
+  line-height: 1.5;
+}
+.title {
+  font-size: larger;
+  line-height: 1.5;
+}
+.text {
+  line-height: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1em;
+  max-height: 100px;
+  display: block;
+  color: #555580;
+}
+.photo img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-right: 45px;
+}
+/* ノティス関連 */

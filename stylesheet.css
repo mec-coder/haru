@@ -1,0 +1,183 @@
+/* 全体にまつわることｓ */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-spacing: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  letter-spacing: 0.1em;
+}
+.contents {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header, footer {
+  background-color: #003e7d;
+  height: 100px;
+}
+
+.clear {
+  clear: none;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-width: 3px;
+}
+
+.horizon {
+  border-style: none;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: darkgrey;
+  width: 80%;
+  margin: 0 auto;
+}
+/* 全体にまつわることｇ */
+
+/* ヘッダー関連ｓ*/
+#logo { 
+  text-align: center; 
+}
+  
+header img {
+  height: 100px;
+}
+
+.red {
+  border-color: #CE2B37;
+}
+
+.white {
+  border-color: white;
+}
+.green {
+  border-color: #009246;
+}
+/* ヘッダー関連ｇ */
+
+/* メニュー関連 */
+.menu-bgcolor {
+  background-color: #c5cddb;
+}
+
+.menu-lists {
+  display: flex;
+}
+.menu-list {
+  flex: auto;
+  padding: 1em 0;
+  text-align: center;
+}
+.menu-list a {
+  color: #14171a;
+  font-size: 18px;
+  text-decoration-line: none;
+}
+.fa-facebook {
+  color: #003F7D;
+  font-size: 24px;
+}
+
+.fixed {
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  z-index: 10;
+  opacity: 0.85;
+}
+
+/* メニュー関連 */
+
+/* メッセージ関連 ｓ*/
+.message-wrapper {
+  background-color: ghostwhite;
+}
+
+.message {
+  text-align: center;
+  font-size: medium;
+  padding: 10% 0;
+  line-height: 2;
+  color: #555580;
+}
+/* メッセージ関連 ｇ*/
+
+/* フォームボタン関連 */
+.form-button-wrapper{
+  background-color: ghostwhite;
+}
+
+.form-button-outer {
+  padding: 0 0 10%;
+  text-align: center;
+}
+
+.form-button {
+  color: ghostwhite;
+  background-color: #3C83C9;
+  font-size: larger;
+  text-decoration-line: none;
+  word-spacing: 1.2;
+  padding: 2% 4%;
+  border-radius: 2em;
+  font-weight: 550;
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: #003e7d 3px 5px;
+}
+/* フォームボタン関連 */
+
+/* インフォメーション関連 */
+.info-wrapper {
+  background-color: ghostwhite;
+  padding: 10% 0;
+}
+.info-wrapper .content {
+  display: flex;
+}
+
+.googlemap {
+  width: 100%;
+  height: 100%;
+  border-style: none;
+}
+.map-outer {
+  flex-grow: 1;
+}
+.text-outer p {
+  flex-grow: 0;
+  padding-left: 10%;
+  line-height: 2;
+  font-size: medium;
+  color: #555580;
+}
+/* インフォメーション関連 */
+
+
+/* フッター関連 */
+footer {
+  height: auto;
+}
+
+.footer-info {
+  padding: 20px 0;
+}
+
+.footer-info h4 {
+  text-align: left;
+  color: ghostwhite;
+  font-weight: normal;
+  font-size: small;
+}
+/* フッター関連 */

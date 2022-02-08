@@ -1,0 +1,106 @@
+@media (max-width: 1000px ) {
+  .text-outer p {
+    font-size: smaller;
+    padding-left: 10%;
+  }
+}
+
+
+/* スマホ版 */
+@media (max-width: 670px ) {
+  /* ヘッダー関連 */
+  header {
+    height: 60px;
+  }
+  header img {
+    height: 60px
+  }
+  hr {
+    border-width: 2px;
+  }
+  /* ヘッダー関連 */
+
+  /* メニュー関連 */
+.menu-wrapper .contents, .menu-wrapper .content {
+  width: 100%;
+}
+  .menu-list {
+    padding: 0.5em 0;
+  }
+  .menu-list a {
+  font-size: 14px;
+  }
+  /* メニュー関連 */
+  /* スライド関連 */
+  .image-wrapper {
+    height: 300px;
+  }
+
+  .slide img {
+    height: 250px;
+  }
+  /* スライド関連 */
+  /* メッセージ関連 */
+  .message {
+    font-size: smaller;
+  }
+  /* メッセージ関連 */
+  /* ノティス関連 */
+  .notice {
+    display: block;
+  }
+  .photo-contents, .text-contents {
+    flex: none;
+  }
+  .photo img {
+    height: 125px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .dates {
+    font-size: smaller;
+  }
+  .title {
+    font-size: medium;
+  }
+  .text {
+    font-size: small;
+    max-height: 50px;
+  }
+  /* ノティス関連 */
+
+  /* フォームアナウンス関連 */
+  .form-button {
+    font-size: small;
+  }
+  /* フォームアナウンス関連 */
+
+  /* インフォメーション関連 */
+  .googlemap {
+    height: 300px;
+  }
+
+  .info-wrapper .content {
+    display: block;
+  }
+  .text-outer p {
+    line-height: 1.7;
+    padding-top: 7%;
+    padding-left: 0;
+  }
+  
+  /* インフォメーション関連 */
+  /* フッター関連 */
+  .footer-info {
+    padding: 5% 0;
+  }
+  .footer-info h4 {
+    text-align: left;
+    color: ghostwhite;
+    font-weight: normal;
+    font-size: x-small;
+  }
+  /* フッター関連 */
+
+}
+/* スマホ版 */
