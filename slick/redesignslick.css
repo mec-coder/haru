@@ -1,0 +1,5 @@
+.slider .slick-prev::before,
+.slider .slick-next::before {
+    font-size: 20px;
+    color: #003F7D;
+}
